@@ -1,0 +1,304 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+
+.box {
+  font-family: Ubuntu;
+  position: absolute;
+  background: red;
+ 
+  width: 290px;
+  margin: 45px 10px 10px 0px;
+  padding: 5px;
+}
+
+.category-container-booking {
+  padding: 12px 0 5px;
+  text-align: center;
+}
+.category-header-booking {
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  color: black;
+  margin: 0 auto 5px;
+}
+.category-subheader-booking {
+  font-size: 14px;
+  font-weight: 400;
+  width: 80%;
+  color: black;
+  margin: 0 auto;
+}
+
+.booking-rows {
+  position: relative;
+  border: 1px solid #e5e5e5;
+  margin: 8px 0;
+  border-radius: 4px;
+  width: auto;
+  background: #e2e2e2;
+  height: 40px;
+  line-height: 20px;
+}
+
+.left-booking {
+  font-size: 10px;
+  color: #898989;
+  text-transform: uppercase;
+  position: absolute;
+  width:120px;
+  padding-left: 8px;
+  height: 100%;
+  line-height: 40px;
+  top: 0;
+}
+
+.right-booking {
+  position: absolute;
+  left: 64px;
+  right: 8px;
+  height: 100%;
+  top: 0;
+}
+
+.middle-booking {
+  position: absolute;
+  left: 64px;
+  right: 40px;
+  height: 100%;
+  width: 180px;
+  color: black;
+  line-height: 40px;
+  top: 0;
+}
+
+.placeholder-booking {
+  color: #888;
+}
+
+.search-button {
+  border-radius: 4px;
+  border: none;
+  font-size: 18px;
+  background-color: #cddc39;
+  color: #000;
+  height: 44px;
+  width: 100%;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.option-selector {
+  appearance: none;
+  border: none;
+  font-size: 15px;
+  background-image: url("https://image.flaticon.com/icons/svg/54/54785.svg");
+  background-position: right center;
+  background-size: 18px 6px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#main{
+  position: relative;
+  width:auto;
+  float:right;
+  height:auto;
+ margin: 20;
+  
+}
+#main > div{
+  float:right;
+   margin:10px;
+}
+#main2 > div{
+  padding-top: 25px;
+  float:right;
+   margin:10px;
+}
+#d1 > div{
+  padding-top: 25px;
+  float:left;
+   margin:10px;
+}
+#a{
+  text-decoration: none;
+  color: white;
+ 
+  font-size: 15px;
+  font-weight: lighter
+    
+}
+#a1{
+  text-decoration: none;
+  color: black;
+  text-size-adjust: 10;
+
+}
+#a:hover {
+  color: rgb(115, 128, 0);
+  
+}
+#a1:hover {
+  color: #CCE500;
+}
+#start{
+  float: right;
+}
+#a2{
+  text-decoration: none;
+  color: black;
+ 
+  text-align:center;
+  
+ 
+}
+ #div4  {
+  float: right;
+  background-color: #CCE500;
+  color: black;
+  margin: 12px;
+  margin-right: 60px;
+  
+  padding: 0.8em;
+  padding-left:1.5em; 
+  padding-right: 1.5em;
+  text-align: center;
+  height: auto;
+  width: auto;
+};
+
+
+#a2:hover{
+  color: red;
+  background-color: red;
+}
+#d2{
+  width:auto;
+  margin-left: 8px;
+  font-weight: lighter;
+  padding-top: 20;
+  height:auto;
+
+ 
+}
+#d1{
+  width:auto;
+  margin-left: 8px;
+  padding-top: 20;
+  height:auto;
+  float: left;
+
+ 
+}
+#toptwo{
+  display: block;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  z-index: 2;
+
+  height: auto;
+}
+.pl{
+  position: relative;
+  display:inline-block;
+
+}
+.div1{
+  align-content: right;
+  background-color:black;
+  height: auto;
+  overflow:auto; 
+  position: relative;
+  width: 100%; 
+}
+.div2{
+  float:right;
+
+  color: white;
+  margin:7px;
+  height: auto;
+  width: auto;
+}
+/* #secnav_white_div  {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  position: relative;
+  font-size: 14;
+  color: black;
+
+  align-content: left;
+
+
+
+};
+
+#secnav_div1  {
+
+  background-color: white;
+  height: auto;
+  overflow: auto;
+  width: 100%;
+};
+#secnav_div3  {
+  float: right;
+
+  color: white;
+  margin: 17;
+  height: auto;
+  width: auto;
+};
+#secnav_div4 {
+  float: right;
+  background-color: green;
+  color: black;
+  margin-right: 20;
+  margin: 10;
+  padding: 0.5em;
+  text-align: center;
+  height: auto;
+  width: auto;
+};
+#secnav_div2 {
+  float: left;
+  
+  color: white;
+  margin: 17;
+  height: auto;
+  width: auto;
+  
+} */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
