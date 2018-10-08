@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./App786.css";
-import {CarouselClass} from "./CarouselClass";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Newfile from './Classcarousel'
 const overlay_corosal={
     zIndex: 1,  
-    backgroundColor: "red",
-    height: "100px",
+    backgroundColor: "white",
+    height: "auto",
    
     overflow: "hidden",
     position: "absolute",
@@ -155,10 +155,13 @@ export default class MainTab_786 extends Component {
                         Search Cabs
         </button>
                 </div>
+               
                 <div style={overlay_corosal}>
 
-          <CarouselClass />
+          {/* <CarouselClass /> */}
+          <Newfile />
           </div>
+        
             </div>
 
         );
