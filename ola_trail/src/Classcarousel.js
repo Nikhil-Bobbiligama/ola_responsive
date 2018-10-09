@@ -4,6 +4,7 @@ import './App.css';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import mainLogo from './images/ola_icon.jpeg';
+import WhyOla from './WhyOla'
 const white_div = {
     backgroundColor: 'white',
     height: 'auto',
@@ -178,6 +179,7 @@ class Classcarousel extends Component {
             </div>
              {/* <div style={{backgroundColor:"green", width:"100%",height:"500px"}}></div> */}
            <div>  <ThreeImages /></div>
+           <div> <WhyOla /></div>
             </div>
         );
     }

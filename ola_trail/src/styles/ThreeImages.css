@@ -1,0 +1,10 @@
+.circleBase {
+    border-radius: 50%;
+  }
+
+.type1 {
+    width: 85px;
+    height: 85px;
+    background: #CCE500;;
+    
+}
