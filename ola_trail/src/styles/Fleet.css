@@ -1,0 +1,38 @@
+.scrollme{
+    float: left;
+    align-content: left;
+    color: black;
+    background-color: white;
+    width: 100%;
+    margin-top:20px;
+     display: inline-block; 
+    overflow-x: scroll;
+ 
+    overflow: auto;
+              overflow-y: hidden;
+              white-space: nowrap; 
+  
+   
+  }
+  .hov{
+
+    
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+        background: white;
+        color: black;
+        /* float: left; 
+        width: 100px; 
+        height: auto;
+         top: 2px;
+          position: absolute; */
+
+  }
+  .hov :hover{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+  background: #CCE500;}
+
+  
