@@ -36,3 +36,13 @@
     border-radius: 50%;
   background: #CCE500;
 }
+#footerme{
+
+  font-size: 12px;
+
+};
+#footerme:hover{
+  color: #CCE500;
+  font-size: 12px;
+  
+};

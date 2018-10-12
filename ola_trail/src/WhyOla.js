@@ -74,11 +74,15 @@ export default class WhyOla extends Component {
                                     Now go cashless and travel easy. Simply recharge your Ola money or add your credit/debit card to enjoy hassle free payments.  </p>
                             </div></div></div>
                
-                            <div className="bind" style={{ backgroundColor: "#EDEDED", height: "auto", width: "100%" }}><Fleet /></div>
+                            <div className="bind" style={{ backgroundColor: "#EDEDED", height: "auto", width: "100%" }}><Fleet />
+                            
+                            
+                            </div>
+                            
                 </div>
-                
+               
             </div>
-          
+           
             </div>
         );
     }

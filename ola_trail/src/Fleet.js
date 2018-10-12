@@ -1,10 +1,22 @@
 import React, { Component } from "react";
-
+import MediaQuery from 'react-responsive';
 import "./styles/Fleet.css"
 import "./styles/Fleetfoot.css"
 import "./styles/WhyOla.css"
 import Footer from './Footer'
+const phef = { textDecoration: "none", color: "white", fontSize: "12px", onMouseOver: { color: "#ECEDCE" } };
 
+//  <style>
+//      .ser{
+//   color=white
+
+
+//  };
+//  ser:hover {
+
+// color= "#CEE300"
+//  }
+//      </style>
 export default class Fleet extends Component {
     constructor() {
         super();
@@ -512,62 +524,388 @@ export default class Fleet extends Component {
 
 
                 </div>
-                <div style={{backgroundColor:"black",height:"2px",width:"100%"}}></div>
-<div style={{height:"auto",width:"100%",backgroundColor:"#EDEDED",marginTop:"15px"}}> 
-                <div style={{ marginLeft: "10px", marginRight: "10px", display: "inlineBlock" }}>
-                    <div style={{ backgroundColor: "#EDEDED", width: "100%", height: "auto" }}>
-                       
-                        <div  style={{ backgroundColor: "#EDEDED" }}>
-                            <div style={{ backgroundColor: "#EDEDED",float:"left" }}><img style={{ width: "80px", height: "80px", top: "2px", position: "relative", paddingBottom: "-10px", paddingRight: "-20px" }} src="https://www.olacabs.com/webstatic/img/ola-support.svg" ></img>
+                <div style={{ backgroundColor: "black", height: "2px", width: "100%" }}></div>
+                <div style={{ height: "auto", width: "100%", backgroundColor: "#EDEDED", marginTop: "15px" }}>
+                    <div style={{ marginLeft: "10px", marginRight: "10px", display: "inlineBlock" }}>
+                        <div style={{ backgroundColor: "#EDEDED", width: "100%", height: "auto" }}>
 
-                                <div style={{ float: "right", backgroundColor: "#EDEDED",color:"black", width: "57%", height: "auto" }}>
-                                    <h3>24/7 Customer Support </h3>
-                                    <p style={{ color: "black" }}>
-                                    A dedicated 24x7 customer support team always at your service to help solve any problem 
+                            <div style={{ backgroundColor: "#EDEDED" }}>
+                                <div style={{ backgroundColor: "#EDEDED", float: "left" }}><img style={{ width: "80px", height: "80px", top: "2px", position: "relative", paddingBottom: "-10px", paddingRight: "-20px" }} src="https://www.olacabs.com/webstatic/img/ola-support.svg" ></img>
+
+                                    <div style={{ float: "right", backgroundColor: "#EDEDED", color: "black", width: "57%", height: "auto" }}>
+                                        <h3>24/7 Customer Support </h3>
+                                        <p style={{ color: "black" }}>
+                                            A dedicated 24x7 customer support team always at your service to help solve any problem
                              </p>
-                                </div></div></div></div></div>
+                                    </div></div></div></div></div>
 
 
 
 
-            </div>
-            <div style={{height:"auto",width:"100%",backgroundColor:"#EDEDED",marginTop:"15px"}}> 
-                <div style={{ marginLeft: "10px", marginRight: "10px", display: "inlineBlock" }}>
-                    <div style={{ backgroundColor: "#EDEDED", width: "100%", height: "auto" }}>
-                       
-                        <div  style={{ backgroundColor: "#EDEDED" }}>
-                            <div style={{ backgroundColor: "#EDEDED",float:"left" }}><img style={{ width: "80px", height: "80px", top: "2px", position: "relative", paddingBottom: "-10px", paddingRight: "-20px" }} src="https://www.olacabs.com/webstatic/img/send_out_succour.svg" ></img>
+                </div>
+                <div style={{ height: "auto", width: "100%", backgroundColor: "#EDEDED", marginTop: "15px" }}>
+                    <div style={{ marginLeft: "10px", marginRight: "10px", display: "inlineBlock" }}>
+                        <div style={{ backgroundColor: "#EDEDED", width: "100%", height: "auto" }}>
 
-                                <div style={{ float: "right", backgroundColor: "#EDEDED",color:"black", width: "57%", height: "auto" }}>
-                                    <h3>Your Safety First </h3>
-                                    <p style={{ color: "black" }}>
-                                    Keep your loved ones informed about your travel routes or call emergency services when in need 
+                            <div style={{ backgroundColor: "#EDEDED" }}>
+                                <div style={{ backgroundColor: "#EDEDED", float: "left" }}><img style={{ width: "80px", height: "80px", top: "2px", position: "relative", paddingBottom: "-10px", paddingRight: "-20px" }} src="https://www.olacabs.com/webstatic/img/send_out_succour.svg" ></img>
+
+                                    <div style={{ float: "right", backgroundColor: "#EDEDED", color: "black", width: "57%", height: "auto" }}>
+                                        <h3>Your Safety First </h3>
+                                        <p style={{ color: "black" }}>
+                                            Keep your loved ones informed about your travel routes or call emergency services when in need
                              </p>
-                                </div></div></div></div></div>
+                                    </div></div></div></div></div>
 
 
 
 
-            </div>
-            <div style={{height:"auto",width:"100%",backgroundColor:"#EDEDED",marginTop:"15px"}}> 
-                <div style={{ marginLeft: "10px", marginRight: "10px", display: "inlineBlock" }}>
-                    <div style={{ backgroundColor: "#EDEDED", width: "100%", height: "auto" }}>
-                       
-                        <div  style={{ backgroundColor: "#EDEDED" }}>
-                            <div style={{ backgroundColor: "#EDEDED",float:"left" }}><img style={{ width: "80px", height: "80px", top: "2px", position: "relative", paddingBottom: "-10px", paddingRight: "-20px" }} src="https://www.olacabs.com/webstatic/img/ola-best-driver.svg" ></img>
+                </div>
+                <div style={{ height: "auto", width: "100%", backgroundColor: "#EDEDED", marginTop: "15px" }}>
+                    <div style={{ marginLeft: "10px", marginRight: "10px", display: "inlineBlock" }}>
+                        <div style={{ backgroundColor: "#EDEDED", width: "100%", height: "auto" }}>
 
-                                <div style={{ float: "right", backgroundColor: "#EDEDED",color:"black", width: "57%", height: "auto" }}>
-                                    <h3>Top Rated Driver-Partners </h3>
-                                    <p style={{ color: "black" }}>
-                                    All our driver-partners are background verified and trained to deliver only the best experience 
+                            <div style={{ backgroundColor: "#EDEDED" }}>
+                                <div style={{ backgroundColor: "#EDEDED", float: "left" }}><img style={{ width: "80px", height: "80px", top: "2px", position: "relative", paddingBottom: "-10px", paddingRight: "-20px" }} src="https://www.olacabs.com/webstatic/img/ola-best-driver.svg" ></img>
+
+                                    <div style={{ float: "right", backgroundColor: "#EDEDED", color: "black", width: "57%", height: "auto" }}>
+                                        <h3>Top Rated Driver-Partners </h3>
+                                        <p style={{ color: "black" }}>
+                                            All our driver-partners are background verified and trained to deliver only the best experience
                              </p>
-                                </div></div></div></div></div>
+                                    </div></div></div></div></div>
+                </div>
+
+                {/* start of footer */}
+                <div style={{ color: "white" }}>
+                    <div style={{ height: "auto", width: "100%", backgroundColor: "white" }}>
+                        <div style={{ marginLeft: "-10px", marginRight: "-10px", marginBottom: "-10px", }}>
+
+
+
+                            <div style={{ backgroundColor: "#3f3f3f", color: "white", float: "left", height: "auto", width: "100%", paddingTop: "20px", paddingBottom: "20px" }}>
+                                <center><h3> Top Visited Cities</h3></center>
+                            </div>
+                            <div style={{ backgroundColor: "white", height: "2px", width: "100%" }}></div>
+                        </div>
 
 
 
 
-            </div>
-            <div>< Footer /></div>
+                    </div>
+                    {/* routes  */}
+                    <div style={{ height: "auto", width: "100%", }}>
+                        <div style={{ marginLeft: "-10px", marginRight: "-10px", display: "inlineBlock" }}>
+
+
+
+                            <div style={{ backgroundColor: "#3f3f3f", float: "left", height: "auto", width: "100%" }}>
+                                <center style={{ marginBottom: "40px" }}><h3 style={{ color: "white" }}>  Popular Outstation Routes </h3>
+                                    <h5 style={{ color: "white" }}>Northern India</h5>
+
+                                    <a style={phef} id="cl" href="/">  Delhi to Chandigarh Outstation Cabs
+                                </a>
+                                    <a style={phef} id="cl" href="/"> <p> Delhi to Agra Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Delhi to Jaipur Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Delhi to Shimla Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Delhi to Nainital Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p>Jaipur to Delhi Outstation Cabs</p>
+                                    </a>
+
+
+                                </center>
+                                <center style={{ marginBottom: "40px" }}><h3 style={{ color: "white" }}></h3>
+                                    <h5 style={{ color: "white" }}>Southern India</h5>
+
+                                    <a style={phef} id="cl" href="/"> <p> Chennai to Pondicherry Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Chennai to Tirupati Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Chennai to Vellore Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Hyderabad to Vijayawada Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Hyderabad to Warangal Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p>Hyderabad to Tirupati Outstation Cabs</p>
+                                    </a>
+
+
+                                </center>
+                                <center style={{ marginBottom: "40px" }}><h3 style={{ color: "white" }}></h3>
+                                    <h5 style={{ color: "white" }}>East & West India</h5>
+
+                                    <a style={phef} id="cl" href="/"> <p> Mumbai to Pune Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Mumbai to Mahabaleshwar Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Mumbai to Lonavala Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Mumbai to Nashik Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p> Mumbai to Matheran Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p>Mumbai to Shirdi Outstation Cabs</p>
+                                    </a>
+                                    <a style={phef} id="cl" href="/"> <p>+ Expand more routes</p>
+                                    </a>
+
+                                </center>
+                            </div></div>
+
+
+
+
+                    </div>
+                    {/* social links */}
+                    <div style={{ height: "auto", width: "100%", }}>
+                        <div style={{ marginLeft: "-10px", marginRight: "-10px", display: "inlineBlock" }}>
+
+
+
+                            <div style={{ backgroundColor: "#3f3f3f", float: "left", height: "auto", width: "100%" }}>
+                                <center style={{ marginTop: "10px", marginBottom: "10px" }} > <h4>Social Links</h4>
+                                    <a href="/">
+                                        <div>
+                                            <img style={{ padding: "25px", paddingTop: "15px" }} src="https://www.olacabs.com/webstatic/img/footer/fb-footer-icon.svg"></img>
+                                            <img style={{ padding: "25px", paddingTop: "15px" }} src="https://www.olacabs.com/webstatic/img/footer/insta-footer-icon.svg"></img>
+                                            <img style={{ padding: "25px", paddingTop: "15px" }} src="https://www.olacabs.com/webstatic/img/footer/youtube-footer-icon.svg"></img>
+                                            <img style={{ padding: "25px", paddingTop: "15px" }} src="https://www.olacabs.com/webstatic/img/footer/twitter-footer-icon.svg"></img>
+                                        </div>
+                                    </a></center>
+                            </div></div>
+
+
+
+                    </div>
+
+                    {/* discover ola */}
+                    <div  style={{marginLeft:"-10px",marginRight:"-10px"}} > 
+                    <center style={{ marginTop: "10px",paddingBottom:"10px" }} > <h4>Discover Ola</h4></center>
+                        <MediaQuery query="( min-device-width: 640px)">
+
+
+                            <div style={{ height: "auto", width: "100%", }}>
+                                <div style={{ marginLeft: "-10px", marginRight: "-10px", display: "inlineBlock", }}>
+
+
+
+                                    <div style={{ backgroundColor: "#3f3f3f", float: "left", height: "auto", width: "100%", display: "inlineBlock", minWidth: "500px" }}>
+                                        <div style={{ margin: "20px", position: "absolute" }}>
+                                            <div style={{ position: "absolute", fontSize: "12px", width: "70px", float: "left", }}>About-Ola</div>
+                                            <div style={{ position: "absolute", fontSize: "12px", marginLeft: "150px", float: "left",  }}>Carrers</div>
+                                            <div style={{ position: "absolute", fontSize: "12px", marginLeft: "230px", float: "left", }}>Offers</div>
+                                            <div style={{ marginLeft: "300px", position: "absolute", fontSize: "12px", width: "80px" }}>Contact us</div>
+                                            <div style={{ position: "absolute", fontSize: "12px", marginLeft: "420px", marginTop: "  ", float: "left", width: "100px" }}>Media Center</div>
+                                            <div style={{ marginLeft: "570px", position: "absolute", fontSize: "12px", marginTop: "  ", width: "80px" }}>Book a ride</div>
+                                        </div>
+                                        <div style={{ margin: "20px", position: "absolute" }}>
+
+
+
+                                            <div style={{ position: "absolute", fontSize: "12px", marginLeft: "250px", marginTop: "50px  ", float: "left", width: "100px" }}>Become a driver</div>
+                                        </div>
+                                        <div style={{ margin: "20px", position: "absolute" }}>
+
+
+
+                                        </div>
+                                        {/* <div style={{margin:"20px",margintop:"200px",position:"absolute"}}>
+<div style={{ position: "absolute", fontSize: "14px" }}>Book a ride</div>
+<div style={{ position: "absolute", fontSize: "14px", marginLeft: "100px", float: "left", }}>Become a driver</div>
+
+</div> */}
+                                    </div>
+                                </div>
+
+                            </div>
+                        </MediaQuery>
+                        <MediaQuery query="( min-device-width: 518px)">
+
+                            <MediaQuery query="( max-device-width: 639px)">
+                                <div style={{ height: "auto", width: "100%", }}>
+                                    <div style={{ marginLeft: "-10px", marginRight: "-10px", display: "inlineBlock", }}>
+
+
+
+                                        <div style={{ backgroundColor: "#3f3f3f", float: "left", height: "auto", width: "100%", display: "inlineBlock"}}>
+                                            <div style={{ margin: "20px", position: "absolute" }}>
+                                                <div style={{ position: "absolute", fontSize: "12px", width: "70px", float: "left", }}>About-Ola</div>
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "150px", float: "left",  }}>Carrers</div>
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "230px", float: "left", }}>Offers</div>
+                                                <div style={{ marginLeft: "300px", position: "absolute", fontSize: "12px", width: "80px" }}>Contact us</div>
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "420px", marginTop: "  ", float: "left", width: "100px" }}>Media Center</div>
+                                            </div>
+                                            <div style={{ margin: "20px", position: "absolute" }}>
+
+
+                                                <div style={{ marginLeft: "150px", position: "absolute", fontSize: "12px", marginTop: "50px  ", width: "80px" }}>Book a ride</div>
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "250px", marginTop: "50px  ", float: "left", width: "100px" }}>Become a driver</div>
+                                            </div>
+                                            <div style={{ margin: "20px", position: "absolute" }}>
+
+
+
+                                            </div>
+                                            {/* <div style={{margin:"20px",margintop:"200px",position:"absolute"}}>
+  <div style={{ position: "absolute", fontSize: "14px" }}>Book a ride</div>
+  <div style={{ position: "absolute", fontSize: "14px", marginLeft: "100px", float: "left", }}>Become a driver</div>
+ 
+</div> */}
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </MediaQuery></MediaQuery>
+
+                        <MediaQuery query="( min-device-width: 397px)">
+
+                            <MediaQuery query="( max-device-width: 517px)">
+                                <div style={{ height: "auto", width: "100%", }}>
+                                    <div style={{ marginLeft: "-10px", marginRight: "-10px", display: "inlineBlock", }}>
+
+
+
+                                        <div style={{ backgroundColor: "#3f3f3f", float: "left", height: "auto", width: "100%", display: "inlineBlock"}}>    <div style={{ margin: "20px", position: "absolute" }}>
+                                                <div style={{ position: "absolute", fontSize: "12px", width: "70px", float: "left", }}>About-Ola</div>
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "150px", float: "left",  }}>Carrers</div>
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "230px", float: "left", }}>Offers</div>
+                                                <div style={{ marginLeft: "300px", position: "absolute", fontSize: "12px", width: "80px" }}>Contact us</div>
+                                            </div>
+                                            <div style={{ margin: "20px", position: "absolute" }}>
+
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "20px", marginTop: "50px  ", float: "left", width: "100px" }}>Media Center</div>
+                                                <div style={{ marginLeft: "150px", position: "absolute", fontSize: "12px", marginTop: "50px  ", width: "80px" }}>Book a ride</div>
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "250px", marginTop: "50px  ", float: "left", width: "100px" }}>Become a driver</div>
+                                            </div>
+                                            <div style={{ margin: "20px", position: "absolute" }}>
+
+
+
+                                            </div>
+                                            {/* <div style={{margin:"20px",margintop:"200px",position:"absolute"}}>
+                          <div style={{ position: "absolute", fontSize: "14px" }}>Book a ride</div>
+                          <div style={{ position: "absolute", fontSize: "14px", marginLeft: "100px", float: "left", }}>Become a driver</div>
+                         
+                      </div> */}
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </MediaQuery></MediaQuery>
+
+                        <MediaQuery query="( min-device-width: 351px) ">
+                            <MediaQuery query="( max-device-width: 396px) ">
+
+                                <div style={{ height: "auto", width: "100%", }}>
+                                    <div style={{ marginLeft: "-10px", marginRight: "-10px", display: "inlineBlock", }}>
+
+
+
+                                        <div style={{ backgroundColor: "#3f3f3f", float: "left", height: "auto", width: "100%", display: "inlineBlock"}}>    <div style={{ margin: "20px", position: "absolute" }}>
+                                                <div style={{ position: "absolute", fontSize: "12px", width: "70px", float: "left", }}>About-Ola</div>
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "150px", float: "left",  }}>Carrers</div>
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "270px", float: "right", }}>Offers</div>
+                                            </div>
+                                            <div style={{ margin: "20px", position: "absolute" }}>
+                                                <div style={{ marginLeft: "20px", position: "absolute", fontSize: "12px", marginTop: "50px  ", width: "80px" }}>Contact us</div>
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "150px", marginTop: "50px  ", float: "left", width: "100px" }}>Media Center</div>
+                                                <div style={{ marginLeft: "250px", position: "absolute", fontSize: "12px", marginTop: "50px  ", width: "80px" }}>Book a ride</div>
+                                            </div>
+                                            <div style={{ margin: "20px", position: "absolute" }}>
+
+                                                <div style={{ position: "absolute", fontSize: "12px", marginLeft: "150px", marginTop: "100px  ", float: "left", width: "100px" }}>Become a driver</div>
+
+                                            </div>
+                                            {/* <div style={{margin:"20px",margintop:"200px",position:"absolute"}}>
+                          <div style={{ position: "absolute", fontSize: "14px" }}>Book a ride</div>
+                          <div style={{ position: "absolute", fontSize: "14px", marginLeft: "100px", float: "left", }}>Become a driver</div>
+                         
+                      </div> */}
+                                        </div>
+                                    </div>
+
+
+
+
+                                </div>
+                            </MediaQuery>
+                        </MediaQuery>
+
+
+                        <MediaQuery query="(max-device-width: 350px)">
+
+
+                            <div style={{ height: "auto", width: "100%", }}>
+                                <div style={{ marginLeft: "-10px", marginRight: "-10px", display: "inlineBlock",backgroundColor:"#3f3f3f" }}>
+
+
+
+                                    <div style={{ backgroundColor: "#3f3f3f", float: "left", height: "auto", width: "100%", display: "inlineBlock"}}>    <div style={{ margin: "20px", position: "absolute" }}>
+                                            <div style={{ position: "absolute", fontSize: "12px", width: "70px", float: "left", }}>About-Ola</div>
+                                            <div style={{ position: "absolute", fontSize: "12px", marginLeft: "100px", float: "left",  }}>Carrers</div>
+                                            <div style={{ position: "absolute", fontSize: "12px", marginLeft: "180px", float: "left", }}>Offers</div>
+                                        </div>
+                                        <div style={{ margin: "20px", position: "absolute" }}>
+                                            <div style={{ marginLeft: "20px", position: "absolute", fontSize: "12px", marginTop: "50px  ", width: "80px" }}>Contact us</div>
+                                            <div style={{ position: "absolute", fontSize: "12px", marginLeft: "150px", marginTop: "50px  ", float: "left", width: "100px" }}>Media Center</div>
+
+                                        </div>
+                                        <div style={{ margin: "20px", position: "absolute" }}>
+                                            <div style={{ marginLeft: "20px", position: "absolute", fontSize: "12px", marginTop: "100px  ", width: "80px" }}>Book a ride</div>
+                                            <div style={{ position: "absolute", fontSize: "12px", marginLeft: "150px", marginTop: "100px  ", float: "left", width: "100px" }}>Become a driver</div>
+
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+
+
+
+
+                            </div>
+                        </MediaQuery>
+                    </div>
+
+                    <div style={{ height: "auto", width: "100%", }}>
+                        <div style={{ marginLeft: "-10px", marginRight: "-10px", display: "inlineBlock" }}>
+
+
+
+                            <div style={{ backgroundColor: "#3f3f3f", float: "left", height: "175px", width: "100%" }}>
+
+                            </div></div>
+
+
+
+
+                    </div>
+                    <div style={{ height: "auto", width: "100%", }}>
+                        <div style={{ marginLeft: "-10px", marginRight: "-10px", display: "inlineBlock" }}>
+
+
+
+                            <div style={{ backgroundColor: "#3f3f3f", float: "left", height: "175px", width: "100%" }}>
+                             <center> <img src="https://www.olacabs.com/webstatic/img/footer-ola-logo.svg"></img></center>
+                             <div style={{marginTop:"10px"}}>
+                                 <div style={{marginLeft:"10px",position:"absolute",width:"32%",fontSize:"12px"}}><center>Notices</center></div>
+                                <div style={{position:"absolute",width:"33%",marginLeft:"33%",fontSize:"12px"}}><center>T&C</center></div>
+                                <div style={{position:"absolute",width:"33%",marginLeft:"67%",fontSize:"12px"}}><center>Privacy Policy</center></div>
+                                 <div></div>
+                                  </div>
+                                  <center style ={{marginTop:"70px",fontSize:"11px"}}>Copyright © 2018 ANI Technologies Pvt. Ltd. All rights reserved.</center>
+                            </div></div>
+
+
+
+
+                    </div>
+                    {/* <div style={{ backgroundColor: "red", height: "500px", width: "100%", position: "absolute" }}></div> */}
+                </div>
             </div>
 
         );

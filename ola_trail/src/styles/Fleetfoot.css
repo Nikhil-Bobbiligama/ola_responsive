@@ -13,14 +13,14 @@
      top: 2px;
       position: absolute; */
 
-}
+};
 .hovme:hover{
 width: 40px;
 float: left;
 height: 40px;
 border-radius: 50%;
 background: #CCE500;
-}
+};
 .nohov{
 
     
@@ -36,4 +36,30 @@ background: #CCE500;
      top: 2px;
       position: absolute; */
 
+};
+.footerme{
+
+    font-size: 12px;
+
+};
+.footerme:hover{
+    color: #CCE500;
+    font-size: 12px;
+    
+};
+#cl{
+    text-decoration: none;
+    font-size: 10;
+    font-weight: 100;
+    text-decoration-color: white
+    
+}
+a{
+    color: #CCE500;
+}
+a:hover{
+    color: #CCE;
+}
+.clsp{
+    display: inline-block;
 }
