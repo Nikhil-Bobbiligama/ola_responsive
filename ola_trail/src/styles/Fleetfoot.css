@@ -63,3 +63,14 @@ a:hover{
 .clsp{
     display: inline-block;
 }
+#ao{
+    font-size: 12px;
+    color:white;
+    text-decoration: none;
+
+}
+ao:hover{
+    color: #CCE500;
+    font-size: 12px;
+   
+}

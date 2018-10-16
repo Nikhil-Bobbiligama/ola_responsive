@@ -684,7 +684,7 @@ export default class Fleet extends Component {
                     </div>
 
                     {/* discover ola */}
-                    <div  style={{marginLeft:"-10px",marginRight:"-10px"}} > 
+                    <div  style={{backgroundColor:"#3f3f3f" ,marginLeft:"-10px",marginRight:"-10px"}} > 
                     <center style={{ marginTop: "10px",paddingBottom:"10px" }} > <h4>Discover Ola</h4></center>
                         <MediaQuery query="( min-device-width: 640px)">
 
