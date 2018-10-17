@@ -52,7 +52,7 @@ class SecondNavbar extends Component {
       <div className="App" style={white_div} >
 
         <div style={div1}>
-         <a className="App" id="a2" href="https://www.olacabs.com/">  <div id="div4">Book Now   </div></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <a className="App" id="a2" href="http://localhost:3000/book_now">  <div id="div4">Book Now   </div></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
            
           <div style={div3}><a id="a1" href="https://www.olacabs.com/">features   &nbsp; </a>    </div>
           <div style={div3}><a id="a1" href="https://www.olacabs.com/">Ola fleet &nbsp;  </a>    </div>
