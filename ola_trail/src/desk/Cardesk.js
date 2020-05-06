@@ -82,7 +82,7 @@ const content_left = {
 
     textAlign: "center",
 
-    backgroundColor:"",
+    backgroundColor: "",
     // margin: "5px",
 
     // marginRight: "10px",
@@ -207,16 +207,19 @@ const overlay_tab = {
     zIndex: 1,
 
     height: "120px",
-   
+
     borderRadius: "5px",
     overflow: "hidden",
     position: "absolute",
     top: "950px",
-    backgroundColor: "WHITE",
+    // backgroundColor: "WHITE",
 
-    width: "auto",
-    margin: "45px 20px 10px 20px",
-    padding: "5px",
+    width: "100%",
+    // marginTop:"45px",
+    // marginLeft:"10px",
+    marginLeft:"-2px",
+    // margin: "45px 20px 10px 20px",
+    // padding: "5px",
     color: "white"
 };
 
@@ -226,55 +229,56 @@ export default class Cardesk extends Component {
         return (
             <div style={overlay_tab}>
 
-                <div >                <Carousel autoPlay infiniteLoop={true} backgroundColor="white"  >
-                    <a id="a1" href="https://www.olacabs.com/outstation">   <div style={{ width: "100%", height: "auto", display: "inline-block", alignContent: "left", backgroundColor: "white" }}>
+                <div style = {{marginLeft:"10px",marginRight:"10px",borderRadius: "5px",padding:"5px"}}>
+                    <Carousel autoPlay infiniteLoop={true} backgroundColor="blue" borderRadius= "55px" >
+                        <a id="a1" href="https://www.olacabs.com/outstation">   <div style={{ width: "100%", height: "auto", display: "inline-block", alignContent: "left", backgroundColor: "white" }}>
 
 
-                        <div style={simple_header}>
-                            <a href="/"> <div style={content_left}>   <img style={{height:"70px",width:"70px"}} src="https://cms-web.olacabs.com/00000000362.jpeg"></img></div></a>
-                            <div style={content_left_no_border_outstation}><div style={{ marginTop: "0px" }}> <a id="a1" style={{ alignContent: "left" }} href="https://www.olacabs.com/outstation">Get yourself a Share Pass</a></div><div style={{ color: "black", marginTop: "10px", alignContent: "left" }}>Enjoy cheapest rides on the go</div></div><br />
+                            <div style={simple_header}>
+                                <a href="/"> <div style={content_left}>   <img style={{ height: "70px", width: "70px" }} src="https://cms-web.olacabs.com/00000000362.jpeg"></img></div></a>
+                                <div style={content_left_no_border_outstation}><div style={{ marginTop: "0px" }}> <a id="a1" style={{ alignContent: "left" }} href="https://www.olacabs.com/outstation">Get yourself a Share Pass</a></div><div style={{ color: "black", marginTop: "10px", alignContent: "left" }}>Enjoy cheapest rides on the go</div></div><br />
 
+                            </div>
                         </div>
-                    </div>
-                    </a>
+                        </a>
 
 
 
-                    <a id="a1" href="https://www.olacabs.com/outstation">   <div style={{ width: "100%", height: "auto", display: "inline-block", alignContent: "left", backgroundColor: "white" }}>
+                        <a id="a1" href="https://www.olacabs.com/outstation">   <div style={{ width: "100%", height: "auto", display: "inline-block", alignContent: "left", backgroundColor: "white" }}>
 
 
-                        <div style={simple_header}>
-                            <a href="/"> <div style={content_left}>   <img style={{height:"70px",width:"70px"}} src="https://cms-web.olacabs.com/00000000360.jpeg"></img></div></a>
-                            <div style={content_left_no_border_outstation}><div style={{ marginTop: "0px" }}> <a id="a1" style={{ alignContent: "left" }} href="https://www.olacabs.com/outstation"> Upgrade to OLA select</a></div><div style={{ color: "black", marginTop: "10px", alignContent: "left" }}>Explore the benfits of OLA select</div></div><br />
+                            <div style={simple_header}>
+                                <a href="/"> <div style={content_left}>   <img style={{ height: "70px", width: "70px" }} src="https://cms-web.olacabs.com/00000000360.jpeg"></img></div></a>
+                                <div style={content_left_no_border_outstation}><div style={{ marginTop: "0px" }}> <a id="a1" style={{ alignContent: "left" }} href="https://www.olacabs.com/outstation"> Upgrade to OLA select</a></div><div style={{ color: "black", marginTop: "10px", alignContent: "left" }}>Explore the benfits of OLA select</div></div><br />
 
+                            </div>
+                        </div></a>
+                        <a id="a1" href="https://www.olacabs.com/outstation">   <div style={{ width: "100%", height: "auto", display: "inline-block", alignContent: "left", backgroundColor: "white" }}>
+
+
+                            <div style={simple_header}>
+                                <a href="/"> <div style={content_left}>   <img style={{ height: "70px", width: "70px" }} src="https://cms-web.olacabs.com/00000000363.svg"></img></div></a>
+                                <div style={content_left_no_border_outstation}><div style={{ marginTop: "0px" }}> <a id="a1" style={{ alignContent: "left" }} href="https://www.olacabs.com/outstation"> Sign up for Ola corporate</a></div><div style={{ color: "black", marginTop: "10px", alignContent: "left" }}>Employee travel management made easy</div></div><br />
+
+                            </div>
                         </div>
-                    </div></a>
-                    <a id="a1" href="https://www.olacabs.com/outstation">   <div style={{ width: "100%", height: "auto", display: "inline-block", alignContent: "left", backgroundColor: "white" }}>
+                        </a>
+                        <a id="a1" href="https://www.olacabs.com/outstation">   <div style={{ width: "100%", height: "auto", display: "inline-block", alignContent: "left", backgroundColor: "white" }}>
 
 
-                        <div style={simple_header}>
-                            <a href="/"> <div style={content_left}>   <img style={{height:"70px",width:"70px"}}  src="https://cms-web.olacabs.com/00000000363.svg"></img></div></a>
-                            <div style={content_left_no_border_outstation}><div style={{ marginTop: "0px" }}> <a id="a1" style={{ alignContent: "left" }} href="https://www.olacabs.com/outstation"> Sign up for Ola corporate</a></div><div style={{ color: "black", marginTop: "10px", alignContent: "left" }}>Employee travel management made easy</div></div><br />
+                            <div style={simple_header}>
+                                <a href="/"> <div style={content_left}>   <img style={{ height: "70px", width: "70px" }} src="https://cms-web.olacabs.com/00000000361.jpeg"></img></div></a>
+                                <div style={content_left_no_border_outstation}><div style={{ marginTop: "0px" }}> <a id="a1" style={{ alignContent: "left" }} href="https://www.olacabs.com/outstation"> Be entertained with Ola play</a></div><div style={{ color: "black", marginTop: "10px", alignContent: "left" }}>Discover movies and music with Ola play</div></div><br />
 
+                            </div>
                         </div>
-                    </div>
-                    </a>
-                    <a id="a1" href="https://www.olacabs.com/outstation">   <div style={{ width: "100%", height: "auto", display: "inline-block", alignContent: "left", backgroundColor: "white" }}>
+                        </a>
 
-
-                        <div style={simple_header}>
-                            <a href="/"> <div style={content_left}>   <img style={{height:"70px",width:"70px"}}  src="https://cms-web.olacabs.com/00000000361.jpeg"></img></div></a>
-                            <div style={content_left_no_border_outstation}><div style={{ marginTop: "0px" }}> <a id="a1" style={{ alignContent: "left" }} href="https://www.olacabs.com/outstation"> Be entertained with Ola play</a></div><div style={{ color: "black", marginTop: "10px", alignContent: "left" }}>Discover movies and music with Ola play</div></div><br />
-
+                        <div style={{ backgroundColor: "grey", height: "auto", width: "0%" }}>
+                            <img src="http://lorempixel.com/output/cats-q-c-640-4807.jpg" alt="" />
                         </div>
-                    </div>
-                    </a>
 
-                    <div style={{ backgroundColor: "grey", height: "auto", width: "0%" }}>
-                        <img src="http://lorempixel.com/output/cats-q-c-640-4807.jpg" alt="" />
-                    </div>
-
-                </Carousel>
+                    </Carousel>
 
                 </div>
 

@@ -9,7 +9,9 @@ const k = {
   height: 'auto',
   width: 'auto',
   overflow: "hidden",
-  paddingTop: '75px'
+  paddingTop: '75px',
+  marginLeft:"2px",
+  marginRight:"2px"
 }
 const overlay = {
   zIndex: 1,
@@ -92,16 +94,14 @@ class FirstImage extends Component {
             <MainTab />
 
           </div>
-          <div >  <Carouselme /></div>
-
-
-
 
           <div>
-            <img src="https://cms-web.olacabs.com/00000000383.jpg" alt="image failed to load">
+            <img src="https://cms-web.olacabs.com/00000000383.jpg" alt="image failed to load" style = {{width:"100%"}}>
             </img>
 
           </div>
+          <div >  <Carouselme /></div>
+
         </div>
         <div style={{ backgroundColor: "white", height: "700px", width: "100%" }}><Threeimg /></div>
         <div style={{ backgroundColor: "white", height: "auto", width: "100%" }}><Whyoladesk /></div>
